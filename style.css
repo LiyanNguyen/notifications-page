@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+:root {
+	/* PRIMARY COLORS */
+	--red: hsl(1, 90%, 64%);
+	--blue: hsl(219, 85%, 26%);
+
+	/* NEUTRAL COLORS */
+	--white: hsl(0, 0%, 100%);
+	--vlgb: hsl(210, 60%, 98%);
+	--lgb1: hsl(211, 68%, 94%);
+	--lgb2: hsl(205, 33%, 90%);
+	--gb: hsl(219, 14%, 63%);
+	--dgb: hsl(219, 12%, 42%);
+	--vdb: hsl(224, 21%, 14%);
+
+	font-size: 16px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: var(--vlgb);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-block: 5rem;
+}
+
+main {
+	width: 45rem;
+	background-color: var(--white);
+	box-shadow: 0 0 1rem .1rem rgba(0, 0, 0, 0.1);
+	padding: 2rem;
+	border-radius: .5rem;
+}
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 1rem;
+}
+
+.top h1 {
+	font-size: 1.25rem;
+	color: var(--vdb);
+	display: flex;
+	align-items: center;
+	gap: .5rem;
+}
+
+.top h1 span {
+	background-color: var(--blue);
+	color: var(--white);
+	padding: .25rem .75rem;
+	border-radius: .2rem;
+	font-size: 1rem;
+}
+
+.top a {
+	text-decoration: none;
+	color: var(--dgb);
+	transition: .25s ease;
+}
+
+.top a:hover {
+	color: var(--blue);
+}
+
+.NotificationContainer {
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+}
+
+.notif {
+	display: flex;
+	gap: 1rem;
+	padding: 1rem;
+	border-radius: .25rem;
+}
+
+.notif.new {
+	background-color: var(--vlgb);
+}
+
+.userImgContainer {
+	min-width: 45px;
+	width: 45px;
+	min-height: 45px;
+	height: 45px;
+}
+
+.userImgContainer img {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.notifContent .text {
+	color: var(--dgb);
+}
+
+.notifContent .text b {
+	color: var(--vdb);
+	cursor: pointer;
+	transition: .25s ease;
+}
+
+.notifContent .text b:hover {
+	color: var(--blue);
+}
+
+.notifContent .text .post {
+	font-weight: 800;
+	cursor: pointer;
+	transition: .25s ease;
+}
+
+.notifContent .text .post:hover {
+	color: var(--blue);
+}
+
+.notifContent .text .group {
+	font-weight: 800;
+	color: var(--blue);
+	cursor: pointer;
+}
+
+.notifContent .redCircle {
+	color: var(--red);
+}
+
+.notifContent .time {
+	color: var(--gb);
+}
+
+.notifContent .message {
+	margin-block: 1rem;
+	border: 1px solid var(--gb);
+	border-radius: .25rem;
+	padding: 1rem;
+	color: var(--dgb);
+	cursor: pointer;
+	transition: .25s ease;
+}
+
+.notifContent .message:hover {
+	background-color: var(--lgb1);
+}
+
+.notif.old {
+	background-color: var(--white);
+}
+
+.commentedPicture {
+	margin-left: auto;
+}
+
+@media screen and (max-width: 450px) {
+	body {
+		align-items: flex-start;
+		padding-block: initial;
+	}
+
+	main {
+		padding: 1rem;
+		width: 375px;
+	}
+}
