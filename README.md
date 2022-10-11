@@ -8,8 +8,8 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 
 ### Links
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/LiyanNguyen/notifications-page
+- Live Site URL: https://liyannguyen.github.io/notifications-page/
 
 ### My Process
 - Design the Desktop Viewport WHILE desinging the Mobile viewport at the same time using
