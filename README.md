@@ -5,6 +5,8 @@ A simple interactive notifications page
 This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC).
 
 ### Screenshot
+![image](https://user-images.githubusercontent.com/50958126/195126117-c6965c96-fb6b-4bd4-8ad0-bd5483f7d9b2.png)
+![image](https://user-images.githubusercontent.com/50958126/195126464-b27c62f2-5b67-40ac-bd89-8dde706ec247.png)
 
 
 ### Links
